@@ -1,0 +1,24 @@
+{
+  "name": "nft.js",
+  "version": "0.0.1",
+  "description": "Community-led initiative to standardize the management of NFT positions programmatically",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/defi-org-code/nft-js.git"
+  },
+  "author": "defi.org",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/defi-org-code/nft-js/issues"
+  },
+  "homepage": "https://github.com/defi-org-code/nft-js#readme",
+  "main": "index.js",
+  "scripts": {
+    "prettier": "prettier --write '{contracts,src,test}/**/*.{ts,js,json,sol}'",
+    "pretest": "npm run prettier",
+    "test": ""
+  },
+  "dependencies": {
+    "@defi.org/web3-candies": "1.x"
+  }
+}
